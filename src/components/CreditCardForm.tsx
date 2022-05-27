@@ -62,14 +62,14 @@ export const CreditCardForm = ({
           Son Kullanma Tarihi
         </label>
         <select name="ccExpireMonth" value={ccExpireMonth} onChange={e => setCcExpireMonth(e.target.value)}
-          style={{ marginRight: '0.5rem', width: '4rem' }}
+          style={{ marginRight: '0.5rem', width: '5rem' }}
         >
           {expireMonthOpts.map(m => (
             <option value={m}>{m}</option>
           ))}
         </select>
         <select name="ccExpireYear" value={ccExpireYear} onChange={e => setCcExpireYear(parseInt(e.target.value))}
-          style={{ marginRight: '0.5rem', width: '5rem' }}
+          style={{ marginRight: '0.5rem', width: '6rem' }}
         >
           {expireYearOpts.map(y => (
             <option value={y}>{y}</option>
