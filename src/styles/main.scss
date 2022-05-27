@@ -149,10 +149,9 @@ input, select, button, textarea {
 
     @media (min-width: $breakpoint-desktop) {
       position: absolute;
-      top: calc(50% - 200px);
+      top: calc(50% - 300px);
       left: calc(100% - 400px);
-      width: 500px;
-      height: 300px; 
+      right: 16px;
     }
     
     border-radius: $border-radius;

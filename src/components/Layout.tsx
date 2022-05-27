@@ -6,7 +6,7 @@ export default function Layout({ children, className }) {
     <div className="Layout">
       <header>
         <a href="/">
-          <img src={LOGO_URL} alt="Logo" className="Layout-logo" />
+          <img height="150px" src={LOGO_URL} alt="Logo" className="Layout-logo" />
         </a>
       </header>
       <main className={`Layout-content has-shadow ${className || ''}`}>
